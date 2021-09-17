@@ -1,1 +1,4 @@
 Makefile
+Dockerfile
+README.md
+.travis.yml
