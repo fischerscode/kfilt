@@ -1,10 +1,10 @@
 # kfilt
 
-[![Build Status](https://travis-ci.org/ryane/kfilt.svg?branch=master)](https://travis-ci.org/ryane/kfilt)
+[![Build Status](https://img.shields.io/docker/cloud/build/fischerscode/kfilt)](https://hub.docker.com/r/fischerscode/kfilt)
 [![Code Coverage](https://codecov.io/gh/ryane/kfilt/branch/master/graph/badge.svg)](https://codecov.io/gh/ryane/kfilt)
 [![Go Report Card](https://goreportcard.com/badge/ryane/kfilt)](https://goreportcard.com/report/ryane/kfilt)
-[![LICENSE](https://img.shields.io/github/license/ryane/kfilt.svg)](https://github.com/ryane/kfilt/blob/master/LICENSE)
-[![Releases](https://img.shields.io/github/release-pre/ryane/kfilt.svg)](https://github.com/ryane/kfilt/releases)
+[![LICENSE](https://img.shields.io/github/license/fischerscode/kfilt.svg)](https://github.com/fischerscode/kfilt/blob/master/LICENSE)
+[![Releases](https://img.shields.io/github/release-pre/fischerscode/kfilt.svg)](https://github.com/ryane/kfilt/releases)
 
 kfilt can filter Kubernetes resources.
 
@@ -93,7 +93,7 @@ See [plugin/kustomize](./plugin/kustomize) for an experimental Kustomize plugin.
 You can use `--include` or `-i` to control which resources to include in the kfilt output. This argument takes a list of simple key value pairs that make up your query. The following keys are currently supported:
 
 | Key           | Field              | Example                   |
-|---------------|--------------------|---------------------------|
+| ------------- | ------------------ | ------------------------- |
 | kind, k       | kind               | ServiceAccount            |
 | name, n       | metadata.name      | my-app                    |
 | group, g      | apiVersion         | rbac.authorization.k8s.io |
